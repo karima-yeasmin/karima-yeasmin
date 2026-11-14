@@ -68,7 +68,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/karima-yeasmin/karima-yeasmin/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" />
+  <img src="https://raw.githubusercontent.com/karima-yeasmin/karima-yeasmin/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" /> 
 </p>
 
 ---
@@ -87,21 +87,5 @@
 </p>
 
 
-name: Generate Contribution Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
 
 
